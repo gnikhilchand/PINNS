@@ -45,10 +45,10 @@ Clone the repository:
 ```bash
 git clone [https://github.com/gnikhilchand/PINNS.git](https://github.com/gnikhilchand/PINNS.git)
 ```
-🧠 Methodology
-Network Architecture: A fully connected dense neural network (DNN).
-Collocation Points: The domain is sampled with random points where the PDE residuals are evaluated.
-Automatic Differentiation: TensorFlow's GradientTape is used to calculate exact derivatives of the neural network output with respect to input coordinates ($x, y$), allowing for the direct encoding of physics into the loss function.
+## 🧠 Methodology
+### Network Architecture: A fully connected dense neural network (DNN).
+### Collocation Points: The domain is sampled with random points where the PDE residuals are evaluated.
+### Automatic Differentiation: TensorFlow's GradientTape is used to calculate exact derivatives of the neural network output with respect to input coordinates ($x, y$), allowing for the direct encoding of physics into the loss function.
 
 
 
